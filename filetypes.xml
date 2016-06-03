@@ -1,0 +1,19 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="agreement" type="HTML" />
+      <mapping ext="thtml" type="HTML" />
+      <mapping ext="php" type="HTML" />
+      <mapping ext="fhtml" type="HTML" />
+      <mapping ext="pug" type="Jade" />
+      <mapping pattern="topics-movie-13jade" type="PLAIN_TEXT" />
+      <mapping pattern="css" type="PLAIN_TEXT" />
+      <mapping pattern="sp" type="PLAIN_TEXT" />
+      <mapping pattern="button_function_20png" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="map" type="PLAIN_TEXT" />
+      <mapping ext="fxhtml" type="XHTML" />
+    </extensionMap>
+  </component>
+</application>

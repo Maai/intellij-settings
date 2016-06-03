@@ -1,0 +1,440 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e365d105-1961-4ba3-a95b-58dfc989c408" name="lisani_tm" url="http://lisani.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/lisani" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a51339e5-002b-4864-84bb-03988d8f69a0" name="georgia_dev" url="http://210.168.75.162">
+        <fileTransfer host="210.168.75.162" port="22" privateKey="$USER_HOME$/.ssh/georgia" rootFolder="/var/www/georgia/htdocs" accessType="SFTP" username="1-10design" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7d9e6544-dbfc-4a38-8c00-140284a6f993" name="ufo-pc_tm" url="http://ufo-pc.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/ufo-pc" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="115e85ce-2fe4-4caf-804b-d651769c0021" name="ufo-sp_tm" url="http://ufo-sp.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/ufo-sp" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b312f7a2-5b57-4587-a626-5e394be13cff" name="toyota_tm" url="http://toyota.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/toyota" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a285f0ff-d8e8-4109-975c-7e8fb1551761" name="sp-dh_tm" url="http://sp-dh.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/sp-dh" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="045f14fa-384f-4083-8b3a-ffc8bcf294eb" name="sp-md_tm" url="http://sp-md.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/sp-md" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a2202bde-2879-46cd-a899-6bc7d5a01192" name="sp-mp_tm" url="http://sp-mp.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/sp-mp" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="36696caf-9af5-4971-9a08-c4a5b7580af3" name="dandy_mp_sp_stg" url="http://pc-dh.systemck.info">
+        <fileTransfer host="pc-dh.systemck.info" port="21" password="dfcedfc2dfc7dfcedfc2dfc7df9fdf9fdf9ddf9d" username="dh_mobile">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ddb1e6d7-4975-4d80-a793-695d55200268" name="mamagohan_stg" url="http://stg.mama-gohan.jp">
+        <fileTransfer host="localhost" port="2022" rootFolder="/home/stgmama/webapps/ROOT/" accessType="SFTP" password="df9adfc3dfcfdfccdf92dfdddf99" username="stgmama">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1b034a8f-be28-4d91-bfee-dcb5c5a61c21" name="mamagohan_production" url="http://mama-gohan.jp">
+        <fileTransfer host="localhost" port="2022" rootFolder="/home/mama/webapps/ROOT/" accessType="SFTP" password="df92dfdfdf98dfcedfccdfc4df92" username="mama">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4a104f79-ec77-4b8f-92b3-917c6af7d3e8" name="lisani_stg" url="http://testlisani.tokomabe.info/">
+        <fileTransfer host="49.212.22.254" port="22" rootFolder="/var/www/vhosts/testlisani.tokomabe.info/html" accessType="SFTP" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="bbeab63e-f661-4a5c-a597-ad8a75ea5ab6" name="lisani_production" url="http://www.lisani.jp/">
+        <fileTransfer host="192.168.98.80" port="22" rootFolder="/www/staginglisanijp/htdocs_nfs/admin/" accessType="SFTP" password="dfcedf9edfe1dfc0dfd2dff9dfe8dfcbdfc9df98" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="96630902-1a69-46c3-a451-0b5da6588bee" name="trymore-inc.jp_tm" url="http://trymore-inc-jp.testup.me/">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/trymore-inc-jp" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="d67160e3-fe59-4dda-9f8d-02b808bee8f6" name="vw-golf-variant_tm" url="http://vw-golf-variant.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/vw-golf-variant" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7f48be2f-88c9-4774-928a-e9940ee7bae5" name="vw-golf-variant_tm_dev" url="http://vw-golf-variant-dev.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/vw-golf-variant-dev/new" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="82ca3eb6-4e1d-4a46-91be-89246c6093ee" name="vw-beetle_tm" url="http://vw-beetle.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/vw-beetle" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="53243983-db6b-4705-bca4-cc6eeea5dd7d" name="cilabo-28days-pc_tm" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a948b66a-987e-462e-82ab-dd7f347bb6af" name="monogatari-bake_tm" url="http://monogatari-bake.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/monogatari-bake" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2bf4a515-d028-48f6-9c75-90c993dd315f" name="garo-app_tm" url="http://garo-app.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/garo-app" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="761443b6-0184-4197-8508-8c79e3f1be53" name="vw-golf-variant-smt_tm" url="http://vw-golf-variant.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/vw-golf-variant" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="08f743ca-a761-43b8-a1be-2ee92f1a6512" name="tm_filer" url="http://filer.testup.me/">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/filer" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1cbb605c-3df5-47bb-9e8f-4816feb93deb" name="vw-up_tm" url="http://vw-up.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/vw-up" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="9d7e1a90-371c-4df9-8a01-6d94495275dc" name="vw-up_tm_dev" url="http://vw-up-dev.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/vw-up-dev" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c38a99f4-97b8-4d11-870d-b994810e8a3c" name="cilabo-1401ciropy-sp_tm" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b6e460e9-a602-4715-b1f9-0dc3c2c13bb7" name="cilabo-1401ciropy-sp_tm_dev" url="http://cilabo-dev.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo-dev" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="beff1861-b86c-4338-af56-b0ef31aa8fb9" name="cilabo-1401cc-sp_tm" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c3c6f18f-7a63-4634-a1e2-e3d14f868fec" name="codeiq_tm" url="http://codeiq.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/codeiq" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="57fd1bf0-1e45-416e-91b6-869c5eb53e64" name="codeiq_stg" url="http://codeiq.irka.co.jp">
+        <fileTransfer host="codeiq.irka.co.jp" port="21" password="dfdedfd8dfd3dfc7dfc5dfd8dfcfdf9bdf98df99df9e" username="ftp_trymore@codeiq.irka.co.jp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="8be5cebe-2da4-4f43-9aab-1e1478fd486d" name="codeiq-tm_dev" url="http://codeiq-dev.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/codeiq-dev" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e9c040b8-a3bc-48a2-bc48-3d3b9279b157" name="tm_sbb-office365" url="http://sbb-office365.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/sbb-office365" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2f583a62-3ee3-40f6-a91f-df686cdfbf02" name="super-street-fighter-4_tm" url="http://super-street-fighter-4.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/super-street-fighter-4" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="9950fe4b-ccd4-4478-a686-65819be05d77" name="sbb-office365_stg" url="http://dev16.ini.co.jp">
+        <fileTransfer host="dev16.ini.co.jp" port="21" username="dev16">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="87847ac5-1d92-4e78-8d4a-4a6fe44ed47b" name="carlsberg-tm" url="http://carlsberg.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/carlsberg" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="85f2f611-c0c4-4ffb-9b79-55d9703168f5" name="mazda-i-activsense_tm" url="http://mazda-i-activsense.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/mazda-i-activsense" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4fdfc5b9-a3ff-4eca-aac6-ef5364f6c23b" name="sengoku-item_tm" url="http://sengoku-item.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/sengoku-item" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f7e51ec7-5145-4217-8792-5c3df385a193" name="ghana-tm" url="http://ghana.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/ghana" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b506cb39-b677-49b3-8d93-ba1f7903e105" name="sengoku-item_stg" url="http://otome-item.com">
+        <fileTransfer host="otome-item.com" port="15322" rootFolder="/home/otome/stg" accessType="SFTP" password="dfc0dfd9dfc1dfdadfc0dff8dff3df9fdf99" username="otome">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="341163c1-961c-48cc-b8c3-5d3128bde056" name="sengoku-item_dev" url="http://otome-item.com">
+        <fileTransfer host="otome-item.com" port="15322" rootFolder="/home/otome/dev" accessType="SFTP" password="dfc0dfd9dfc1dfdadfc0dff8dff3df9fdf99" username="otome">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6f7b4441-13cc-4b58-ba20-f629bf13d9dd" name="cilabo-1404line-sp_tm" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="df998870-0c87-4933-9897-e77c8c51f10d" name="cilabo-1404memosecret_tm" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7cb0a84f-dacf-4eea-b41c-406a143ac16f" name="otome-portal_tm" url="http://otome-portal.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/otome-portal/" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="950c749a-6a62-4431-b33a-749f0ed75cb3" name="aeon-yukata-2014_tm-dev" url="http://aeon-yukata-2014-dev.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/aeon-yukata-2014-dev/" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="76893be5-3122-4516-8615-d71ec6636ca7" name="cilabo-1404sample-pc_tm" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6e88ea5a-632d-4ba0-ab0a-4b429db4c2f9" name="trymore-inc-jp_tm" url="http://trymore-inc-jp.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/trymore-inc-jp" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="23bcf33d-782c-4682-a211-450d8a3e1961" name="cilabo-1404sample-sp_tm" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="22285a01-54f9-42b3-be00-18897b554a8c" name="cilabo-1502-vc100-pc" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c50f205c-49db-439a-b6d7-1fa8394bcaef" name="uniqlo-lucky-candle_tm" url="http://uniqlo-lucky-candle.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/uniqlo-lucky-candle" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7d8723e7-6421-4875-bc49-9f35e63d75bb" name="aeonkids_tm" url="http://aeonkids.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/aeonkids/" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="88cae9cc-0fd8-4b9f-b043-c7a0a8274496" name="cybozu_tm" url="http://cybozu.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cybozu/" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f61ee29e-4ae2-43e2-888d-28198630148d" name="aeon-yukata-2014_tm" url="http://aeon-yukata-2014.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/aeon-yukata-2014/" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="50c0f4ce-5328-4150-b70e-36102dee0318" name="okuda" url="http://219.94.244.168">
+        <fileTransfer host="219.94.244.168" port="22" accessType="SFTP" password="dfcedfe5df99df98dfcedfd2dffcdfccdff7" username="endo">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="62b34bf0-1955-4d7a-af74-d5f3e2035827" name="aeonkids_dev_tm" url="http://aeonkids-dev.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/aeonkids-dev" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="bc19b24c-9f89-49b1-a02d-2f89dc0b5217" name="astalift-diff_tm" url="http://astalift-diff.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/astalift-diff/" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="46a24328-5835-4585-8e1f-04ee34b81b8c" name="cilabo-travelset2014-sp" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ccff94db-3979-4783-8d4c-b80930eefec4" name="cilabo-travelset2014-pc" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c9f9709b-38ff-4b46-ab4f-914f96c39193" name="cilabo-1501line-sp" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a9b969cc-5705-460e-9383-7138820ca53d" name="cilabo-1502line-sp" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4b2d87b1-1074-43f1-8788-0f0be24906d8" name="cilabo-1502-vc100-sp" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="fea0acc8-f901-4df6-ba0f-df8d151a787e" name="cilabo-app" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="9655314b-ae1b-4a0a-ae5e-926efbd0ddb6" name="ships-develop" url="http://49.212.148.184">
+        <fileTransfer host="49.212.148.184" port="21" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="dd42c842-5037-4837-9ff2-8233e0e68512" name="cilabo-1503-travel-pc" url="http://cilabo.testup.me">
+        <fileTransfer host="testup.me" port="21" rootFolder="/testup.me/cilabo" password="df9bdf98df99df9edf9fdf9cdf9ddf92" username="trymore">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
