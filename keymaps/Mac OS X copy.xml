@@ -1,18 +1,17 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
-    <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
-  <action id="DomElementsTreeView.DeleteElement">
-    <keyboard-shortcut first-keystroke="delete" />
+  <action id="DomCollectionControl.Remove" />
+  <action id="DomElementsTreeView.DeleteElement" />
+  <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorSelectWord" />
@@ -20,16 +19,31 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta alt p" />
   </action>
+  <action id="Graph.Delete" />
+  <action id="Images.Thumbnails.UpFolder" />
   <action id="IntroduceParameter" />
   <action id="ParameterInfo" />
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
-  <action id="UsageView.Exclude">
-    <keyboard-shortcut first-keystroke="delete" />
-    <keyboard-shortcut first-keystroke="back_space" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="UsageView.Exclude" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="hg4idea.QDelete" />
 </keymap>
