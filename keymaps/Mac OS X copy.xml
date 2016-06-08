@@ -1,7 +1,19 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="DomElementsTreeView.DeleteElement">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorSelectWord" />
   <action id="FileChooser.TogglePathShowing" />
@@ -12,6 +24,10 @@
   <action id="ParameterInfo" />
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta p" />
